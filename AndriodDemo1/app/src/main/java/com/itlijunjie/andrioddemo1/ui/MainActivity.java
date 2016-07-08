@@ -1,25 +1,15 @@
 package com.itlijunjie.andrioddemo1.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 import com.itlijunjie.andrioddemo1.R;
-import com.loopj.android.http.AsyncHttpClient;
-import com.loopj.android.http.JsonHttpResponseHandler;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import cz.msebera.android.httpclient.Header;
+import com.itlijunjie.andrioddemo1.ui.view.UserListActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,45 +22,56 @@ public class MainActivity extends AppCompatActivity {
             btn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    AsyncHttpClient client = new AsyncHttpClient();
-                    String url = "http://10.1.16.158:8080/pt/call/json/Demo1/list";//http://192.168.1.108:8080/pt/call/json/Demo1/list";
-                    client.get(url, new JsonHttpResponseHandler() {
-                        @Override
-                        public void onSuccess(int statusCode, Header[] headers,
-                                              JSONArray response) {
-                            super.onSuccess(statusCode, headers, response);
-                            if (statusCode == 200) {
-                                //存储数组变量
-                                List<com.itlijunjie.andrioddemo1.ui.dataset.bean.Header> objects = new ArrayList<>();
-                                for (int i = 0; i < response.length(); i++) {
-                                    try {
-                                        // 获取具体的一个JSONObject对象
-                                        JSONObject obj = response.getJSONObject(i);
-                                        com.itlijunjie.andrioddemo1.ui.dataset.bean.Header header = new com.itlijunjie.andrioddemo1.ui.dataset.bean.Header();
-                                        header.setImage(obj.getString("image"));
-                                        header.setText(obj.getString("text"));
-                                        objects.add(header);
-                                    } catch (JSONException e) {
-                                        e.printStackTrace();
-                                    }
-                                }
-                                Toast.makeText(MainActivity.this, objects.toString(), Toast.LENGTH_SHORT).show();
-                            }
-                        }
+                    Intent intent = new Intent();
+                    intent.setClass(MainActivity.this, UserListActivity.class);
+                    MainActivity.this.startActivity(intent);
 
-                        @Override
-                        public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
-                            super.onFailure(statusCode, headers, responseString, throwable);
-                            Toast.makeText(MainActivity.this, "失败", Toast.LENGTH_SHORT).show();
-                        }
+//                    List<com.itlijunjie.andrioddemo1.ui.dataset.bean.Header> objects = new ArrayList<>();
+//                    com.itlijunjie.andrioddemo1.ui.dataset.bean.Header header1 = new com.itlijunjie.andrioddemo1.ui.dataset.bean.Header("u1","n1");
+//                    com.itlijunjie.andrioddemo1.ui.dataset.bean.Header header2 = new com.itlijunjie.andrioddemo1.ui.dataset.bean.Header("u2","n2");
+//                    objects.add(header1);
+//                    objects.add(header2);
+//                    Toast.makeText(MainActivity.this, objects.toString(), Toast.LENGTH_SHORT).show();
 
-                        @Override
-                        public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
-                            super.onFailure(statusCode, headers, throwable, errorResponse);
-
-                            Toast.makeText(MainActivity.this, "失败", Toast.LENGTH_SHORT).show();
-                        }
-                    });
+//                    AsyncHttpClient client = new AsyncHttpClient();
+//                    String url = "http://10.1.16.158:8080/pt/call/json/Demo1/list";//http://192.168.1.108:8080/pt/call/json/Demo1/list";
+//                    client.get(url, new JsonHttpResponseHandler() {
+//                        @Override
+//                        public void onSuccess(int statusCode, Header[] headers,
+//                                              JSONArray response) {
+//                            super.onSuccess(statusCode, headers, response);
+//                            if (statusCode == 200) {
+//                                //存储数组变量
+//                                List<com.itlijunjie.andrioddemo1.ui.dataset.bean.Header> objects = new ArrayList<>();
+//                                for (int i = 0; i < response.length(); i++) {
+//                                    try {
+//                                        // 获取具体的一个JSONObject对象
+//                                        JSONObject obj = response.getJSONObject(i);
+//                                        com.itlijunjie.andrioddemo1.ui.dataset.bean.Header header = new com.itlijunjie.andrioddemo1.ui.dataset.bean.Header();
+//                                        header.setImage(obj.getString("image"));
+//                                        header.setText(obj.getString("text"));
+//                                        objects.add(header);
+//                                    } catch (JSONException e) {
+//                                        e.printStackTrace();
+//                                    }
+//                                }
+//                                Toast.makeText(MainActivity.this, objects.toString(), Toast.LENGTH_SHORT).show();
+//                            }
+//                        }
+//
+//                        @Override
+//                        public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
+//                            super.onFailure(statusCode, headers, responseString, throwable);
+//                            Toast.makeText(MainActivity.this, "失败", Toast.LENGTH_SHORT).show();
+//                        }
+//
+//                        @Override
+//                        public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
+//                            super.onFailure(statusCode, headers, throwable, errorResponse);
+//
+//                            Toast.makeText(MainActivity.this, "失败", Toast.LENGTH_SHORT).show();
+//                        }
+//                    });
                 }
             });
         }

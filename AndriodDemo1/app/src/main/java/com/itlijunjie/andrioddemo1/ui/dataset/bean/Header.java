@@ -7,6 +7,11 @@ public class Header {
     private String image;//头像链接
     private String text;//名字
 
+    public Header (String url, String name) {
+        image = url;
+        text = name;
+    }
+
     public String getImage() {
         return image;
     }
