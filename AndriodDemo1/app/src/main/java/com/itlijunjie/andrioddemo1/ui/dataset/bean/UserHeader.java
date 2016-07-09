@@ -3,11 +3,13 @@ package com.itlijunjie.andrioddemo1.ui.dataset.bean;
 /**
  * Created by ljj on 16/7/7.
  */
-public class Header {
+public class UserHeader {
     private String image;//头像链接
     private String text;//名字
 
-    public Header (String url, String name) {
+    public UserHeader() {
+    }
+    public UserHeader(String url, String name) {
         image = url;
         text = name;
     }

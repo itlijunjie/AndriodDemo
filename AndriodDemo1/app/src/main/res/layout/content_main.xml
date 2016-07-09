@@ -12,16 +12,9 @@
     tools:context=".ui.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView1"
-        android:text="Hello World!" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="发送请求"
-        android:layout_below="@id/textView1"
+        android:text="ListView使用学习"
         android:id="@+id/button" />
 </RelativeLayout>
