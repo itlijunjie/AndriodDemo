@@ -22,7 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.view.UserListActivity"></activity>
+        <activity android:name=".ui.view.UserListActivity" />
+        <activity android:name=".ui.view.UseSqliteActivity"></activity>
     </application>
 
 </manifest>

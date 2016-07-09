@@ -1,0 +1,2163 @@
+{
+  "list": {
+    "A": [
+      {
+        "cityId": "41453B55-BAEA-4A63-B63D-1925CD494E2D",
+        "cityName": "阿拉善盟",
+        "zmCode": "A",
+        "pinYin": "aba"
+      },
+      {
+        "cityId": "7035F205-B054-436C-8CAA-B1A47A6D22E3",
+        "cityName": "鞍山",
+        "zmCode": "A",
+        "pinYin": "aba"
+      },
+      {
+        "cityId": "77088FEF-1CE4-4A4E-9C38-49F89C0544C7",
+        "cityName": "安庆",
+        "zmCode": "A",
+        "pinYin": "aba"
+      },
+      {
+        "cityId": "3E14EDCC-9AEC-4E82-AA7E-53187A20D6B5",
+        "cityName": "安阳",
+        "zmCode": "A",
+        "pinYin": "aba"
+      },
+      {
+        "cityId": "631D0B3D-D1F5-471F-B139-5C9DE15C8157",
+        "cityName": "阿坝",
+        "zmCode": "A",
+        "pinYin": "aba"
+      },
+      {
+        "cityId": "6B57CCA9-375B-44C2-9883-2F236DAF7092",
+        "cityName": "安顺",
+        "zmCode": "A",
+        "pinYin": "aba"
+      },
+      {
+        "cityId": "0747C4DE-542C-4196-8325-2BEBC71894C4",
+        "cityName": "安康",
+        "zmCode": "A",
+        "pinYin": "aba"
+      },
+      {
+        "cityId": "D8C9FCEC-C402-4234-9BE4-D55012D8B5A5",
+        "cityName": "阿克苏",
+        "zmCode": "A",
+        "pinYin": "aba"
+      },
+      {
+        "cityId": "9D9BDF14-6D2E-4543-AA46-061CE221AEBC",
+        "cityName": "阿勒泰",
+        "zmCode": "A",
+        "pinYin": "aba"
+      },
+      {
+        "cityId": "7DF8BC80-3741-4D50-A442-AC094C30B12A",
+        "cityName": "阿拉尔",
+        "zmCode": "A",
+        "pinYin": "aomen"
+      }
+    ],
+    "B": [
+      {
+        "cityId": "CA9944FD-5A68-4607-9897-E10ACCBC6AE2",
+        "cityName": "北京",
+        "pinYin": "beijing",
+        "zmCode": "B"
+      },
+      {
+        "cityId": "CA55852B-DC38-4CCC-BF61-44D16C0FD713",
+        "cityName": "保定",
+        "zmCode": "B",
+        "pinYin": "baotou"
+      },
+      {
+        "cityId": "6A741102-950A-4DAE-8F02-0EC5FE3B0622",
+        "cityName": "包头",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "6CCD4EA5-8FB8-48D2-81B7-F08FD6BF7DE4",
+        "cityName": "巴彦淖尔",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "1E9EC3BB-7FCC-4B29-B931-856DFFAA027A",
+        "cityName": "本溪",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "813DBAF6-BD94-4F73-B6FC-3D04549EBC77",
+        "cityName": "白山",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "0F6D8D7D-C301-469F-88C3-3798A9438313",
+        "cityName": "白城",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "860EEA2D-E136-4B68-810F-09E363F4F15B",
+        "cityName": "蚌埠",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "B93E8315-052C-400A-AC7A-0022ED2DA5C0",
+        "cityName": "亳州",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "6A9E5A7B-368B-421C-A4E1-8D4BC46792AB",
+        "cityName": "滨州",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "B2832E96-2638-42FB-A28E-3E217A15C5E8",
+        "cityName": "北海",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "4D029785-CDA8-418F-B008-75984677AB21",
+        "cityName": "百色",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "473EB92D-DE43-4A72-9EE5-6BB342567074",
+        "cityName": "白沙",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "C655BAC5-4CB3-4BAD-BCDD-E8D3F461FEE8",
+        "cityName": "保亭",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "566BDF7B-F44F-4E9A-9250-91D1DDF84679",
+        "cityName": "巴中",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "F1641CCD-9F1F-4CA4-BFAB-4E5A2BB562B0",
+        "cityName": "毕节",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "9A22D81C-295B-4807-9690-A6541DE04A47",
+        "cityName": "保山",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "983CC4DC-8D1F-467C-9866-E96C0A1E3AD3",
+        "cityName": "宝鸡",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "7E13B577-2C3D-4E9F-A2FE-CADBC4BD133C",
+        "cityName": "白银",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "089BB5F0-A6A2-4396-97B3-5B0B255B8633",
+        "cityName": "博尔塔拉",
+        "zmCode": "B",
+        "pinYin": "beijing"
+      },
+      {
+        "cityId": "5A554360-C2E6-4DA3-B1BA-E81993F5E356",
+        "cityName": "巴音郭楞",
+        "zmCode": "B",
+        "pinYin": "baoding"
+      }
+    ],
+    "C": [
+      {
+        "cityId": "4306AA8D-49D6-4A67-B8FF-65DB2B25B6B3",
+        "cityName": "承德",
+        "zmCode": "C",
+        "pinYin": "chengde"
+      },
+      {
+        "cityId": "C90160A0-CBA2-46D7-9A1F-94F4DEED7B4E",
+        "cityName": "沧州",
+        "zmCode": "C",
+        "pinYin": "cangzhou"
+      },
+      {
+        "cityId": "ABEAAED6-6244-44FA-9D90-314F80CCDBA3",
+        "cityName": "长治",
+        "zmCode": "C",
+        "pinYin": "chaoyang"
+      },
+      {
+        "cityId": "30023675-A342-4D37-9767-D7FE39E3E856",
+        "cityName": "赤峰",
+        "zmCode": "C",
+        "pinYin": "chaoyang"
+      },
+      {
+        "cityId": "FCC5AD24-BF96-44A4-B5AF-29EE8AA574A6",
+        "cityName": "朝阳",
+        "zmCode": "C",
+        "pinYin": "chaoyang"
+      },
+      {
+        "cityId": "45D7D18D-35FF-468A-866D-CA7E5E4FE12F",
+        "cityName": "长春",
+        "zmCode": "C",
+        "pinYin": "chaoyang"
+      },
+      {
+        "cityId": "FD54430A-5424-496C-A7D8-57E0184A7653",
+        "cityName": "常州",
+        "zmCode": "C",
+        "pinYin": "chaoyang"
+      },
+      {
+        "cityId": "5C44B2AF-9763-4864-A411-20CF0337A23F",
+        "cityName": "滁州",
+        "zmCode": "C",
+        "pinYin": "chaoyang"
+      },
+      {
+        "cityId": "680F6A31-B281-4646-ACF5-01191D068C01",
+        "cityName": "池州",
+        "zmCode": "C",
+        "pinYin": "chaoyang"
+      },
+      {
+        "cityId": "65A7D282-FC1A-43AC-9C54-B51F7C5F4E92",
+        "cityName": "长沙",
+        "zmCode": "C",
+        "pinYin": "chaoyang"
+      },
+      {
+        "cityId": "F4694EFB-CF55-4915-913C-41493F1F3BA9",
+        "cityName": "常德",
+        "zmCode": "C",
+        "pinYin": "chaoyang"
+      },
+      {
+        "cityId": "43807870-CE74-45DC-8DFE-31694818F363",
+        "cityName": "郴州",
+        "zmCode": "C",
+        "pinYin": "chenzhou"
+      },
+      {
+        "cityId": "B893E9AE-9EF1-4932-8EE4-930BEE2DFAD9",
+        "cityName": "潮州",
+        "zmCode": "C",
+        "pinYin": "chaoyang"
+      },
+      {
+        "cityId": "DB1BA507-4855-4892-8CAC-B5AED2984277",
+        "cityName": "崇左",
+        "zmCode": "C",
+        "pinYin": "chaoyang"
+      },
+      {
+        "cityId": "CB7CFE89-840B-4D35-AD3F-00B4FE019163",
+        "cityName": "澄迈县",
+        "zmCode": "C",
+        "pinYin": "chaoyang"
+      },
+      {
+        "cityId": "C42A4240-E2ED-43A9-82A4-925CA57995EA",
+        "cityName": "昌江",
+        "zmCode": "C",
+        "pinYin": "chaoyang"
+      },
+      {
+        "cityId": "33EC8851-453A-4C8B-AA48-B92FCBE4624B",
+        "cityName": "重庆",
+        "pinYin": "chongqing",
+        "zmCode": "C"
+      },
+      {
+        "cityId": "80BF7A63-FF29-4176-ACFD-99B766CC6C39",
+        "cityName": "成都",
+        "pinYin": "chengdu",
+        "zmCode": "C"
+      },
+      {
+        "cityId": "3DC68738-1342-4AF9-915E-CDD092BF84A2",
+        "cityName": "楚雄",
+        "zmCode": "C",
+        "pinYin": "chaoyang"
+      },
+      {
+        "cityId": "B2A4AB3A-6A0E-4605-8745-AA0EC5992D15",
+        "cityName": "昌吉",
+        "zmCode": "C",
+        "pinYin": "changzhou"
+      }
+    ],
+    "D": [
+      {
+        "cityId": "DE961B0A-68E4-44CB-BBD4-61D4FFB8EF80",
+        "cityName": "大同",
+        "zmCode": "D",
+        "pinYin": "dalian"
+      },
+      {
+        "cityId": "3CC84F12-92D6-478F-9DB0-004A633B734C",
+        "cityName": "大连",
+        "zmCode": "D",
+        "pinYin": "daqing"
+      },
+      {
+        "cityId": "55F54D9D-2672-4A3B-A7CE-0D43299BF105",
+        "cityName": "丹东",
+        "zmCode": "D",
+        "pinYin": "dongguan"
+      },
+      {
+        "cityId": "E837DC7D-33EA-4C7D-857E-0EDD90577ACB",
+        "cityName": "大庆",
+        "zmCode": "D",
+        "pinYin": "dongguan"
+      },
+      {
+        "cityId": "FC16EC7F-E3B2-44AE-A831-489CDF97F62E",
+        "cityName": "大兴安岭",
+        "zmCode": "D",
+        "pinYin": "dongguan"
+      },
+      {
+        "cityId": "FBB5A02F-A81F-4466-8F56-A255A4241A31",
+        "cityName": "东营",
+        "zmCode": "D",
+        "pinYin": "dongguan"
+      },
+      {
+        "cityId": "5FD6F378-9FA9-40F7-997A-B57F19FB9710",
+        "cityName": "德州",
+        "zmCode": "D",
+        "pinYin": "dongguan"
+      },
+      {
+        "cityId": "BE9E1C24-6CD7-4FD6-AB1C-87C3CF5DDF5A",
+        "cityName": "东莞",
+        "zmCode": "D",
+        "pinYin": "dongguan"
+      },
+      {
+        "cityId": "56E00D56-B3DE-4DF8-AEBA-4E84A9052810",
+        "cityName": "东方",
+        "zmCode": "D",
+        "pinYin": "dongguan"
+      },
+      {
+        "cityId": "BD6CB0D0-241B-4D5F-B3B9-93A9AD77334C",
+        "cityName": "定安县",
+        "zmCode": "D",
+        "pinYin": "dongguan"
+      },
+      {
+        "cityId": "0B3E3A70-5A35-4DC5-9A36-5A87DF21E76B",
+        "cityName": "德阳",
+        "zmCode": "D",
+        "pinYin": "dongguan"
+      },
+      {
+        "cityId": "A9B4A2F9-A13C-47EC-ADFD-72C55D61EDF8",
+        "cityName": "达州",
+        "zmCode": "D",
+        "pinYin": "dongguan"
+      },
+      {
+        "cityId": "882C3495-2053-4253-9C87-581EBDF691C6",
+        "cityName": "大理",
+        "zmCode": "D",
+        "pinYin": "dongguan"
+      },
+      {
+        "cityId": "5F347E92-6974-4A68-8DAF-3E09D3C8AB40",
+        "cityName": "德宏",
+        "zmCode": "D",
+        "pinYin": "dongguan"
+      },
+      {
+        "cityId": "08106A34-39D4-4088-A0B5-2E126547E00C",
+        "cityName": "迪庆",
+        "zmCode": "D",
+        "pinYin": "dongguan"
+      },
+      {
+        "cityId": "19B0D9F3-5103-4040-B081-4BB17BDCDA73",
+        "cityName": "定西",
+        "zmCode": "D",
+        "pinYin": "deyang"
+      }
+    ],
+    "E": [
+      {
+        "cityId": "670D1D65-4651-4D82-A037-C3CC506E86CF",
+        "cityName": "鄂尔多斯",
+        "zmCode": "E",
+        "pinYin": "eerduosi"
+      },
+      {
+        "cityId": "D7576530-0D69-431B-99F5-BCEE5DAE07F3",
+        "cityName": "鄂州",
+        "zmCode": "E",
+        "pinYin": "ezhou"
+      },
+      {
+        "cityId": "93406346-2499-445B-B12E-77113DBE2692",
+        "cityName": "恩施",
+        "zmCode": "E",
+        "pinYin": "enshitujiazumiaozuzizhizhou"
+      }
+    ],
+    "F": [
+      {
+        "cityId": "D1ED5446-67DF-4AFD-8B3A-BD3D97E145FB",
+        "cityName": "抚顺",
+        "zmCode": "F",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "2432526E-B42C-480A-9318-04BCC8D78839",
+        "cityName": "阜新",
+        "zmCode": "F",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "91F35206-152B-4CB0-ACEC-33ACA2443A1D",
+        "cityName": "阜阳",
+        "zmCode": "F",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "BB312B4B-6C55-4E9F-BA6E-05EE1D0E8573",
+        "cityName": "福州",
+        "zmCode": "F",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "FA63D2A0-A7B4-4D4E-B195-6ECC9C219D95",
+        "cityName": "抚州",
+        "zmCode": "F",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "96023D63-CEE0-4BFA-B308-9CDA6D72F493",
+        "cityName": "佛山",
+        "zmCode": "F",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "D6A0597D-49E7-483F-B528-A69658F1A99A",
+        "cityName": "防城港",
+        "zmCode": "F",
+        "pinYin": "hehe"
+      }
+    ],
+    "G": [
+      {
+        "cityId": "20C59C1D-8E8A-4A95-BDE5-B22808E66EA2",
+        "cityName": "赣州",
+        "zmCode": "G",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "B728E19B-1546-40BC-8F26-53DB2EB6F3BB",
+        "cityName": "广州",
+        "pinYin": "guangzhou",
+        "zmCode": "G"
+      },
+      {
+        "cityId": "0FC687E0-2C87-4AEE-9053-A6D7CC30ECD3",
+        "cityName": "桂林",
+        "zmCode": "G",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "F15669E2-D3D1-45F4-BBCC-800EB57077BA",
+        "cityName": "贵港",
+        "zmCode": "G",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "381F7C22-8CEB-4FA3-AFE5-1E7E7D6A8969",
+        "cityName": "广元",
+        "zmCode": "G",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "90FFAC8B-7ACF-4228-8B0A-B2644D5C70C0",
+        "cityName": "广安",
+        "zmCode": "G",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "917A78C4-281C-41EC-8109-139C327932C6",
+        "cityName": "甘孜",
+        "zmCode": "G",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "32D8D5E6-2D40-41DD-BF9C-79C4A68EA1EA",
+        "cityName": "贵阳",
+        "zmCode": "G",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "CE62A813-6343-43DF-8288-4F07810F94C3",
+        "cityName": "甘南",
+        "zmCode": "G",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "60165174-7D73-435A-A6AA-B1BE83115919",
+        "cityName": "果洛",
+        "zmCode": "G",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "37DC7527-3000-45BD-9FB9-160826FFED5F",
+        "cityName": "固原",
+        "zmCode": "G",
+        "pinYin": "hehe"
+      }
+    ],
+    "H": [
+      {
+        "cityId": "71CED5E7-EC0C-480D-B415-E7861C7A19BD",
+        "cityName": "邯郸",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "AAA72A56-EC42-4DB7-8C64-4BE7BA88A344",
+        "cityName": "衡水",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "1F027529-18C4-482C-9373-F46707B967EE",
+        "cityName": "呼和浩特",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "8B7D5E27-B5D7-4DB0-B21D-703A05AED2C0",
+        "cityName": "呼伦贝尔",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "A0D98F62-CD31-4D05-8B48-EFA7050A2FE6",
+        "cityName": "兴安盟",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "B77959C6-91E9-4631-86BF-B9AD58772B30",
+        "cityName": "葫芦岛",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "48937AF5-C100-4568-A922-AAC1CA53FE24",
+        "cityName": "哈尔滨",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "426262FE-03F5-43FA-85DE-C27EE802AA0D",
+        "cityName": "鹤岗",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "94B328B0-C1D2-474E-A9FB-29A948E27605",
+        "cityName": "黑河",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "AB6ADDAE-E732-4FC6-B59A-8037BD9AEC88",
+        "cityName": "淮安",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "BA4ACDB9-2447-4D5B-AB19-488B1C9ED8BB",
+        "cityName": "杭州",
+        "pinYin": "hangzhou",
+        "zmCode": "H"
+      },
+      {
+        "cityId": "4537AF93-7F0B-465F-A60A-AB76F8153B4D",
+        "cityName": "湖州",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "C309D2DB-319D-41F1-B3C6-DA8F82E4FC36",
+        "cityName": "合肥",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "04879B82-5CAA-4857-B3AF-30F31A8588E5",
+        "cityName": "淮南",
+        "pinYin": "haha",
+        "zmCode": "H"
+      },
+      {
+        "cityId": "EE337EA3-7A5C-4A14-BB7D-D6145B2F5613",
+        "cityName": "淮北",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "6A70499B-F8D4-476C-B874-EECF6039DA4C",
+        "cityName": "黄山",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "89A1DFE1-76AC-438D-9E60-0835A21A023C",
+        "cityName": "菏泽",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "87D3B29B-DED0-4D25-991C-6E1F983AF58F",
+        "cityName": "鹤壁",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "0663DA13-8ACA-46AD-8422-5894D528F0F0",
+        "cityName": "黄石",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "77806754-4F12-45CD-BCD5-3DD939508840",
+        "cityName": "黄冈",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "597D011B-346C-4AFA-8FCF-0B675716A9A0",
+        "cityName": "衡阳",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "818D51ED-6FF2-4214-B5EC-C083FBF8B824",
+        "cityName": "怀化",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "B8BA7A9F-B60E-402A-8089-F42269144FAE",
+        "cityName": "惠州",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "D1FBAEB1-2B3A-4E9C-BE1D-25E0D01F9261",
+        "cityName": "河源",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "8F0C784F-3DEB-4887-921D-E79F58B8FB78",
+        "cityName": "贺州",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "639B177C-DB56-40B8-BE50-9DB2B253F3EB",
+        "cityName": "河池",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "3A32A800-5384-475D-A301-C23871DAF290",
+        "cityName": "海口",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "D1C9CFF2-FB2C-4F64-A2AB-61F05821EA85",
+        "cityName": "红河",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "11B79B4E-FDB1-4D65-A27F-163CDF4A31FF",
+        "cityName": "汉中",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "F8F9FB87-8571-477B-804B-9ABE72894379",
+        "cityName": "海东",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "696D41F0-1465-467D-A13D-4B3AD81E86D9",
+        "cityName": "海北",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "75E5FE43-4FD4-43AE-A106-EE0A07E98E4F",
+        "cityName": "黄南",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "E9143AE5-F152-4C8B-A176-80DAC394644A",
+        "cityName": "海南",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "0B04AA45-1FC1-4DDE-9BA1-36268952BE27",
+        "cityName": "海西",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "74F1E37B-8310-47DF-8844-533FDD0B4850",
+        "cityName": "哈密",
+        "zmCode": "H",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "86CCE0FB-4876-496A-8235-D5ECD6D2FEAE",
+        "cityName": "呵呵",
+        "zmCode": "H",
+        "pinYin": "和田"
+      }
+    ],
+    "I": [
+      {
+        "cityId": "9B628D97-2FB7-46DF-AF01-02AE034240B3",
+        "cityName": "伊犁",
+        "zmCode": "I",
+        "pinYin": "haha"
+      }
+    ],
+    "J": [
+      {
+        "cityId": "9BCB1B39-5FB2-4ABD-98B3-12685DC12536",
+        "cityName": "晋城",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "62FA1D7F-7F80-409D-8B9A-A7306B479477",
+        "cityName": "晋中",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "E260A758-7397-4B8D-A7B0-4643D2BF2FA4",
+        "cityName": "锦州",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "92E1B793-1C5B-4322-BFDC-EFAB30C2B8B6",
+        "cityName": "吉林",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "BC746880-FD77-49B0-BFEE-AA4924D188A3",
+        "cityName": "鸡西",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "56106C23-EB01-4374-BDC7-A9B4437AA1E0",
+        "cityName": "佳木斯",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "D571612E-7448-4B10-A4D4-5B368355BA6A",
+        "cityName": "嘉兴",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "57956EEB-521E-40EE-A04F-C363312ECFBA",
+        "cityName": "金华",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "D61FF62E-0E4D-4398-BDC1-503E6A217BC2",
+        "cityName": "景德镇",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "3B238349-4093-4CF6-BDEA-4CEACF0B3A73",
+        "cityName": "九江",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "DC356579-971F-4547-B6CD-1269AB739C97",
+        "cityName": "吉安",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "89E3A842-1564-45B3-9C9A-6A95D773410A",
+        "cityName": "济南",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "AD89B053-EA66-4BB0-A1C7-D5DBFDA79B8A",
+        "cityName": "济宁",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "EDB149BF-7A76-4FF1-B388-971FAF95F9DB",
+        "cityName": "焦作",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "4C946FF5-BA4F-4183-856C-B428D0F16CE9",
+        "cityName": "济源",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "76D7BD16-03F8-4099-BBCA-1F9AC1F826F0",
+        "cityName": "荆门",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "D97237B0-4B87-401F-989F-F7750B1D949E",
+        "cityName": "荆州",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "AE0E018A-428D-4CD3-98D3-6AB5AD0278EF",
+        "cityName": "江门",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "A3EBF75F-1E09-434A-BDCE-627F6AF6BC5C",
+        "cityName": "揭阳",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "DB223D39-2937-4CF0-9594-44920798E0CE",
+        "cityName": "嘉峪关",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "5C3F0CEC-B5F2-42C6-A2B2-5106A9622BEF",
+        "cityName": "金昌",
+        "zmCode": "J",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "176F3DE1-035B-4B08-A453-EAC3FC7BF7D8",
+        "cityName": "酒泉",
+        "zmCode": "J",
+        "pinYin": "hehe"
+      }
+    ],
+    "K": [
+      {
+        "cityId": "0696C2FB-070E-4999-946D-9EB3F7167D3D",
+        "cityName": "开封",
+        "zmCode": "K",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "1D5706A7-63ED-48A7-A597-0213B2A36C9F",
+        "cityName": "昆明",
+        "zmCode": "K",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "A222A79D-0673-4AA4-9959-90A47552A35A",
+        "cityName": "克拉玛依",
+        "zmCode": "K",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "0D73548E-596D-48E8-9AC0-5092AF18E4F0",
+        "cityName": "克孜勒苏柯尔克孜",
+        "zmCode": "K",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "DE887680-DE14-435A-9D76-857DAEDA1AC7",
+        "cityName": "喀什",
+        "zmCode": "K",
+        "pinYin": "hehe"
+      }
+    ],
+    "L": [
+      {
+        "cityId": "0A58AADD-9600-43DE-9D86-83E318CBE14D",
+        "cityName": "廊坊",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "AE155F7B-58C8-48D1-B712-83B046DB31A8",
+        "cityName": "临汾",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "12A82BDB-B10B-4E13-9ABB-10AEBBFAB254",
+        "cityName": "吕梁",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "8E2E4189-D925-4E46-8F6C-E0A1F13B6B93",
+        "cityName": "辽阳",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "D31BC0E2-4C2F-4FDA-AC46-B3C7850FE817",
+        "cityName": "辽源",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "208A952E-92C6-467A-A6ED-07E3B0B64CC1",
+        "cityName": "连云港",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "951A03AC-DD7F-45AC-B41C-979DB3F95F34",
+        "cityName": "丽水",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "B3547D83-5948-4FC0-A759-B4D6174F6CF2",
+        "cityName": "六安",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "5084F9EB-B8A1-4DFB-B88B-8273F47C79D6",
+        "cityName": "龙岩",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "205D687E-6847-4559-A79D-5DD6279634F7",
+        "cityName": "莱芜",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "8F2D6183-8921-4BCD-BFE1-956E30A7745E",
+        "cityName": "临沂",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "76903DB0-E873-4ED4-AD40-7CCDB93EE737",
+        "cityName": "聊城",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "2FE7FD51-8819-41D7-A5DB-9689156B1595",
+        "cityName": "洛阳",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "5BF91161-27EC-4258-A1AE-1C9B23007F55",
+        "cityName": "漯河",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "D0AE0B0F-AFBC-4DDE-83D8-CD7B9D2F0A3A",
+        "cityName": "娄底",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "DE4AA43C-42A6-4DC7-8B78-6303EC686962",
+        "cityName": "柳州",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "1F759F46-650F-4211-AE4B-DFACE3670AB3",
+        "cityName": "来宾",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "5C2397B8-DB53-449A-86EE-1CA7283C5272",
+        "cityName": "临高县",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "F3BE131A-75AD-4550-ADE4-8521E6B6073D",
+        "cityName": "乐东",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "104FD834-6C2F-427D-AA5B-30702FBCC2BE",
+        "cityName": "陵水",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "DE165B47-D6E2-439E-B573-67A4E34137E7",
+        "cityName": "泸州",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "0AF9A4BA-6E0A-43A5-8AD5-710E74AFCB12",
+        "cityName": "乐山",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "41FB5874-5579-4489-87DC-AA1CDF747750",
+        "cityName": "凉山",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "7643FE14-C09B-40E4-8C0F-6FC9B939EE4B",
+        "cityName": "六盘水",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "9688E204-6D0A-43F2-99EF-A3BB35B6E317",
+        "cityName": "丽江",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "75A3B355-F382-4C66-A15F-E9BE559A9AF5",
+        "cityName": "临沧",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "119A6B8A-8400-4102-A6E1-BE6AD8476819",
+        "cityName": "拉萨",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "CCCDCCBA-4B17-4912-888E-D7D7739E73E9",
+        "cityName": "兰州",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "B7C84542-46FB-4CFC-ACA2-553B5BB3B0D5",
+        "cityName": "陇南",
+        "zmCode": "L",
+        "pinYin": "L"
+      },
+      {
+        "cityId": "2D2ADE5E-1AE2-4D3B-A492-B8708D86F25B",
+        "cityName": "临夏",
+        "zmCode": "L",
+        "pinYin": "L"
+      }
+    ],
+    "M": [
+      {
+        "cityId": "3570DBEB-7C42-4EA9-BACC-5B7996EDD5B7",
+        "cityName": "牡丹江",
+        "zmCode": "L",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "C2024B4D-251D-4E26-BEE3-0F54C50AFA16",
+        "cityName": "马鞍山",
+        "zmCode": "L",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "1921DBE2-F29B-46E8-BF1E-A9F20E339ADE",
+        "cityName": "茂名",
+        "zmCode": "L",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "4E4F2F83-1F66-4B21-9D6A-949D7AF56A18",
+        "cityName": "梅州",
+        "zmCode": "L",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "F971227A-24DB-4AE1-9F0E-9A6806C5D35E",
+        "cityName": "绵阳",
+        "zmCode": "L",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "1D702A8B-2B00-4E31-9F51-E407D6A8329D",
+        "cityName": "眉山",
+        "zmCode": "L",
+        "pinYin": "hehe"
+      }
+    ],
+    "N": [
+      {
+        "cityId": "D2B68150-7CD4-449C-9FC6-4F62A9E7A4C0",
+        "cityName": "南京",
+        "pinYin": "nanjing",
+        "zmCode": "N"
+      },
+      {
+        "cityId": "D775934D-4AAB-4C76-BCFC-EE03A2BE6AC8",
+        "cityName": "南通",
+        "zmCode": "N",
+        "pinYin": "N"
+      },
+      {
+        "cityId": "83A59D96-0459-445E-84CB-D5CD257285B1",
+        "cityName": "宁波",
+        "zmCode": "N",
+        "pinYin": "N"
+      },
+      {
+        "cityId": "CAE25E07-7FFA-4E33-9661-545857BB1F78",
+        "cityName": "南平",
+        "zmCode": "N",
+        "pinYin": "N"
+      },
+      {
+        "cityId": "1CB553B7-521A-4F0E-B97D-2A99F53D0312",
+        "cityName": "宁德",
+        "zmCode": "N",
+        "pinYin": "N"
+      },
+      {
+        "cityId": "F7E0FB6D-F146-40C1-918F-7AEFAEC5EFB3",
+        "cityName": "南昌",
+        "zmCode": "N",
+        "pinYin": "N"
+      },
+      {
+        "cityId": "8DADC27E-1C4C-403E-8599-33C530F9DDF5",
+        "cityName": "南阳",
+        "zmCode": "N",
+        "pinYin": "N"
+      },
+      {
+        "cityId": "771BD719-F62C-4581-9C74-6C466ACC817F",
+        "cityName": "南宁",
+        "zmCode": "N",
+        "pinYin": "N"
+      },
+      {
+        "cityId": "AFE4F302-1F33-4BF6-B1B2-D1FA7F87042F",
+        "cityName": "内江",
+        "zmCode": "N",
+        "pinYin": "N"
+      },
+      {
+        "cityId": "5FAAF37A-02F1-4E94-BE65-7A43F20BC2AA",
+        "cityName": "南充",
+        "zmCode": "N",
+        "pinYin": "N"
+      },
+      {
+        "cityId": "AE53D7AF-E9BE-4E7B-9219-538F7D7DC287",
+        "cityName": "怒江",
+        "zmCode": "N",
+        "pinYin": "N"
+      },
+      {
+        "cityId": "D646E87F-BD8B-4694-9661-206DE2CCF267",
+        "cityName": "那曲",
+        "zmCode": "N",
+        "pinYin": "N"
+      },
+      {
+        "cityId": "51A18A6F-5986-414F-A77C-78322D4FC35E",
+        "cityName": "阿里",
+        "zmCode": "N",
+        "pinYin": "N"
+      },
+      {
+        "cityId": "03330180-F971-4203-88C8-67DAF1EF993A",
+        "cityName": "林芝",
+        "zmCode": "N",
+        "pinYin": "N"
+      }
+    ],
+    "P": [
+      {
+        "cityId": "D8F9CC8D-EE22-4A43-BDF0-DD796340C5C3",
+        "cityName": "盘锦",
+        "zmCode": "P",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "BA7943A5-6E59-49FF-B943-BEC6A95D1866",
+        "cityName": "莆田",
+        "zmCode": "P",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "ECDFE1F7-9CA6-4EB6-BC5A-4C16DDA44F1A",
+        "cityName": "萍乡",
+        "zmCode": "P",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "B2BB5133-DECF-4134-BE0F-13525CAF7BD5",
+        "cityName": "平顶山",
+        "zmCode": "P",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "7FBBD362-EC3D-45E8-A25E-4C3F4E041E72",
+        "cityName": "濮阳",
+        "zmCode": "P",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "1C89D51C-2BB9-40C3-8C9F-5BEECE005F36",
+        "cityName": "攀枝花",
+        "zmCode": "P",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "7B34A584-6FE8-4454-B024-8148E86F490C",
+        "cityName": "普洱",
+        "zmCode": "P",
+        "pinYin": "haha"
+      },
+      {
+        "cityId": "63A5FA3E-96E6-4470-9B29-AEF8CCB9556F",
+        "cityName": "平凉",
+        "zmCode": "P",
+        "pinYin": "hehe"
+      }
+    ],
+    "Q": [
+      {
+        "cityId": "1CD791C2-6996-40E3-A541-5C45BD57C4CC",
+        "cityName": "秦皇岛",
+        "zmCode": "Q",
+        "pinYin": "Q"
+      },
+      {
+        "cityId": "FF652AEB-9932-4A51-9F48-D29D257F51DD",
+        "cityName": "齐齐哈尔",
+        "zmCode": "Q",
+        "pinYin": "Q"
+      },
+      {
+        "cityId": "099E1004-E23F-4856-9F51-C5C3DC6A75C0",
+        "cityName": "七台河",
+        "zmCode": "Q",
+        "pinYin": "Q"
+      },
+      {
+        "cityId": "9A8CD2A8-EA06-4CC5-BD53-BF9907E5A100",
+        "cityName": "衢州",
+        "zmCode": "Q",
+        "pinYin": "Q"
+      },
+      {
+        "cityId": "D93E25CD-808B-4A77-88C1-9E65E512782C",
+        "cityName": "泉州",
+        "zmCode": "Q",
+        "pinYin": "Q"
+      },
+      {
+        "cityId": "6B7DE4D0-76D0-439C-A66D-8C8A038F9448",
+        "cityName": "青岛",
+        "zmCode": "Q",
+        "pinYin": "Q"
+      },
+      {
+        "cityId": "F9CF2DC3-3FF9-4C38-A167-EB8DE704D58A",
+        "cityName": "潜江",
+        "zmCode": "Q",
+        "pinYin": "Q"
+      },
+      {
+        "cityId": "F7E09502-2739-435A-9370-1A801735E41C",
+        "cityName": "清远",
+        "zmCode": "Q",
+        "pinYin": "Q"
+      },
+      {
+        "cityId": "341D491F-24B0-4526-B06C-B66A66B9DB50",
+        "cityName": "钦州",
+        "zmCode": "Q",
+        "pinYin": "Q"
+      },
+      {
+        "cityId": "ECA84C90-F0E0-4891-88AF-05D7B8426B21",
+        "cityName": "琼海",
+        "zmCode": "Q",
+        "pinYin": "Q"
+      },
+      {
+        "cityId": "F85B83EB-E1D3-4453-9F86-C0EC42675811",
+        "cityName": "琼中",
+        "zmCode": "Q",
+        "pinYin": "Q"
+      },
+      {
+        "cityId": "72EEDBC9-DDCC-408E-9766-8C0D564B637C",
+        "cityName": "黔西南",
+        "zmCode": "Q",
+        "pinYin": "Q"
+      },
+      {
+        "cityId": "B39F9BA8-9225-4837-9543-13699CC45A54",
+        "cityName": "黔东南",
+        "zmCode": "Q",
+        "pinYin": "Q"
+      },
+      {
+        "cityId": "D88B91C8-C725-4B7A-BD1D-3A6B5E9F7A9B",
+        "cityName": "黔南",
+        "zmCode": "Q",
+        "pinYin": "Q"
+      },
+      {
+        "cityId": "964BD4EC-FAF6-404E-9F0A-4B18D48DA525",
+        "cityName": "曲靖",
+        "zmCode": "Q",
+        "pinYin": "Q"
+      },
+      {
+        "cityId": "7C083651-D379-4E69-87D7-DDEE73DCCC9C",
+        "cityName": "昌都",
+        "zmCode": "Q",
+        "pinYin": "Q"
+      },
+      {
+        "cityId": "DC59A6BE-A249-4144-AA9B-E106B38A457F",
+        "cityName": "庆阳",
+        "zmCode": "Q",
+        "pinYin": "Q"
+      }
+    ],
+    "R": [
+      {
+        "cityId": "B4D91494-0D5B-41FC-9488-76F0274B7C4B",
+        "cityName": "日照",
+        "zmCode": "R",
+        "pinYin": "haha"
+      }
+    ],
+    "S": [
+      {
+        "cityId": "2C4A0C66-E401-4E4A-A423-C573C0D8A1E9",
+        "cityName": "石家庄",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "383BF613-E4F7-47C9-B804-93033AA2D53A",
+        "cityName": "朔州",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "4A66EB5A-FED9-4C81-BD79-53783E2AAF2A",
+        "cityName": "沈阳",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "D1E905C2-B54A-488C-9092-EBE57804BC97",
+        "cityName": "四平",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "78793665-8387-4F14-918E-08548681853B",
+        "cityName": "松原",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "7AD960FC-4DB7-4A51-8EFA-EB1C02774933",
+        "cityName": "双鸭山",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "CDC81956-3726-4626-A5EE-DF2A96B8169F",
+        "cityName": "绥化",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "15739B9B-AD4F-4EA0-B241-F83DB0E0D869",
+        "cityName": "上海",
+        "zmCode": "shanghai",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "A986E219-E1EF-4718-972E-7C27108791E5",
+        "cityName": "苏州",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "E53BD954-17F4-40CB-AA74-A844366571AD",
+        "cityName": "宿迁",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "E8FB4A86-69D7-40A9-A684-9C96A6E78B25",
+        "cityName": "绍兴",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "D036938E-C4EC-4A03-A434-79EE8F866C9C",
+        "cityName": "宿州",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "D890D50C-172E-45AD-A6D2-5F18029DF0B6",
+        "cityName": "三明",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "89317B14-F589-4E32-A764-B3F5508B7D60",
+        "cityName": "上饶",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "477766BA-8BD3-44EC-9CB4-78544882D5AD",
+        "cityName": "三门峡",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "070651C5-B9DE-4FDB-9B59-CAAFF24925A0",
+        "cityName": "商丘",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "0D49ADF0-7BC5-4490-B050-E24EB8597CFC",
+        "cityName": "十堰",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "D57AADBA-11D4-472A-AEB6-66AD707E4C57",
+        "cityName": "随州",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "53D28CFD-8B4A-4B6E-8A66-3CDEC4621041",
+        "cityName": "神农架林区",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "1985B82A-9481-47B7-841B-CD93AF2AD32B",
+        "cityName": "邵阳",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "514E64A1-EC6B-4820-8AF0-F774A08E2DD5",
+        "cityName": "韶关",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "3005BBE4-263B-4973-8210-6990CFA671E0",
+        "cityName": "深圳",
+        "zmCode": "shenzhen",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "A5BAD1E8-D2ED-4C79-91BD-1ED8C421EB79",
+        "cityName": "汕头",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "B3BBBAE0-15E2-4BC7-B849-67E41D66EDA1",
+        "cityName": "汕尾",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "1DD25A96-D95B-43B8-BDEE-1E80A119DB10",
+        "cityName": "三亚",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "17BC6A58-87F8-4BDF-850C-E9FF72FFE109",
+        "cityName": "三沙",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "FB392F4D-0038-4EED-99DD-8FA1EBD314B8",
+        "cityName": "遂宁",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "9969E8A3-EE64-4F87-ABDF-89EA9DBA6066",
+        "cityName": "山南",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "44C4840F-8025-4FD9-96D0-C519A727CD62",
+        "cityName": "商洛",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "D5E9E4A0-9242-4177-8D40-788DFCCE8D07",
+        "cityName": "石嘴山",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "EA1B9619-1068-4A2C-9AD7-C519F2F6BF52",
+        "cityName": "石河子",
+        "zmCode": "S"
+      }
+    ],
+    "T": [
+      {
+        "cityId": "0E51CD18-425A-4D69-AE3F-38DDCD30FC69",
+        "cityName": "天津",
+        "zmCode": "tianjin",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "13466E07-7A17-44E7-93B0-15995FF1902E",
+        "cityName": "唐山",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "9B59F34D-A043-48A3-A6EC-570A04F81E23",
+        "cityName": "太原",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "23419DB7-0806-4A26-AD5A-1C52FC6EC4B0",
+        "cityName": "通辽",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "C5CBF8CD-E7E9-4AF1-8AD1-86EB7CC6B56F",
+        "cityName": "铁岭",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "47592DEF-F915-40FB-AE2D-2A381FC00092",
+        "cityName": "通化",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "D38945F2-F596-414A-9F2F-CCAAF6801618",
+        "cityName": "泰州",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "25267D2D-59C6-4FAB-BC39-6E17BAD893E6",
+        "cityName": "台州",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "F1AAD7BB-AE5B-4D4F-9598-AD6FD5083059",
+        "cityName": "铜陵",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "C4C93679-C4FC-4034-B467-59D75FFB3A62",
+        "cityName": "泰安",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "C12CB29F-A222-45FC-B484-37A76B15C344",
+        "cityName": "天门",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "1A7D9F98-5255-4FF0-946C-12041B6E7366",
+        "cityName": "屯昌县",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "54822697-83D1-4EC4-BA1A-4557CDEF2CF1",
+        "cityName": "铜仁",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "39C15D06-68DA-4739-8EE9-CFCE5E3467D4",
+        "cityName": "铜川",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "D16E395B-64DA-4AA8-A439-45D080947F0E",
+        "cityName": "天水",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "4B5319DB-6207-472E-9593-5780CD3DD060",
+        "cityName": "吐鲁番",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "336D4144-3FC1-42AB-B721-2A0EA023DA53",
+        "cityName": "塔城",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "065C23FC-0C9C-4992-98CD-824C82ADD253",
+        "cityName": "图木舒克",
+        "zmCode": "T"
+      }
+    ],
+    "U": [
+      {
+        "cityId": "4F385866-39B7-4753-B4B0-CB00666E8B8F",
+        "cityName": "乌鲁木齐",
+        "zmCode": "U"
+      }
+    ],
+    "W": [
+      {
+        "cityId": "76288BD5-2819-4240-8452-EFD4CB1DA6CF",
+        "cityName": "乌海",
+        "zmCode": "W"
+      },
+      {
+        "cityId": "9BA55CB4-ABFF-4D06-A314-DA3D8F464FC5",
+        "cityName": "乌兰察布",
+        "zmCode": "W"
+      },
+      {
+        "cityId": "EA5B0F9B-3D2A-4ACB-9A0C-63801A16BBC2",
+        "cityName": "无锡",
+        "zmCode": "W"
+      },
+      {
+        "cityId": "F3189302-2109-4DA0-B92F-C8269AFE0B85",
+        "cityName": "温州",
+        "zmCode": "W"
+      },
+      {
+        "cityId": "56CBD2DB-5B42-4895-B177-5AC80FBFE427",
+        "cityName": "芜湖",
+        "zmCode": "W"
+      },
+      {
+        "cityId": "37A6E7E9-E796-4691-A055-23CB811B65F9",
+        "cityName": "潍坊",
+        "zmCode": "W"
+      },
+      {
+        "cityId": "7E941988-F02A-4454-B134-C59D4BC9973E",
+        "cityName": "威海",
+        "zmCode": "W"
+      },
+      {
+        "cityId": "6DA03BFF-A997-4E1D-B16E-E5050C6B4D2B",
+        "cityName": "武汉",
+        "zmCode": "wuhan",
+        "zmCode": "W"
+      },
+      {
+        "cityId": "DFE49A22-6FFC-4004-82A1-21B42DD4A9CC",
+        "cityName": "梧州",
+        "zmCode": "W"
+      },
+      {
+        "cityId": "32727B02-1378-4099-A21F-E6EFEF84757F",
+        "cityName": "五指山",
+        "zmCode": "W"
+      },
+      {
+        "cityId": "3375CF22-7D27-4B8F-902D-4154895AECBD",
+        "cityName": "文昌",
+        "zmCode": "W"
+      },
+      {
+        "cityId": "02925D96-5DA5-49E4-BF66-86D37B47F671",
+        "cityName": "万宁",
+        "zmCode": "W"
+      },
+      {
+        "cityId": "3053D8C0-CC84-4862-9181-9D8B3FD00163",
+        "cityName": "文山",
+        "zmCode": "W"
+      },
+      {
+        "cityId": "B8779842-E42C-4724-9912-CBCE9599F1D2",
+        "cityName": "渭南",
+        "zmCode": "W"
+      },
+      {
+        "cityId": "C208675C-63FF-4A88-9FCA-0F6370203369",
+        "cityName": "武威",
+        "zmCode": "W"
+      },
+      {
+        "cityId": "829F1527-545B-4744-9CC9-89DA5CE3D0D7",
+        "cityName": "吴忠",
+        "zmCode": "W"
+      },
+      {
+        "cityId": "439E3A0E-5413-4811-9CEB-86550C53F1FF",
+        "cityName": "五家渠",
+        "zmCode": "W"
+      }
+    ],
+    "X": [
+      {
+        "cityId": "797AEE06-B2A9-4903-8142-EDADE1DFA7E4",
+        "cityName": "邢台",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "DDDCC622-61A8-4042-95F6-830B7867087F",
+        "cityName": "忻州",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "9DE29A12-2DFE-4BAC-B316-7A147DAD582E",
+        "cityName": "锡林郭勒盟",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "0B61A2AE-58C0-48F8-80F6-9D86CF718D49",
+        "cityName": "徐州",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "81F18652-0575-425E-9F37-5BF35CF04610",
+        "cityName": "宣城",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "146E4BE1-BD86-402E-929B-ED74627C12FD",
+        "cityName": "厦门",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "63D196A8-FFEB-47B1-B562-CBB1CFFC072E",
+        "cityName": "新余",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "78324963-7165-4D96-A58A-92FA6FEF8C50",
+        "cityName": "新乡",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "6B46F736-5F48-49AF-8FC2-A9F807A56271",
+        "cityName": "许昌",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "B3A31549-D011-4627-9AD7-05D918811544",
+        "cityName": "信阳",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "17050AFA-17B1-4060-ABCF-486F6F0E700A",
+        "cityName": "襄阳",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "3B9CC4B2-3F5B-4F9A-990B-69E89636717E",
+        "cityName": "孝感",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "E2BEAAEE-8DB7-4636-B531-4B13BC103783",
+        "cityName": "咸宁",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "37511F09-46D8-4EDF-B319-8846D7DF089E",
+        "cityName": "仙桃",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "17C43494-3A05-4310-B539-0643C93DAA11",
+        "cityName": "湘潭",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "E647CEE4-7DC4-4E88-9A59-28B0D0543A70",
+        "cityName": "湘西",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "A9EB4C70-3EC5-493F-96E9-C9F12A2ED025",
+        "cityName": "西双版纳",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "E08EE840-F8D8-43F0-A0F0-ACD15E36D51C",
+        "cityName": "日喀则",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "C592AE7F-11AC-4C66-8246-78DBAAF81235",
+        "cityName": "西安",
+        "zmCode": "xian",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "ABB4957E-DBE7-4A6D-8FD8-0E74BEBA544C",
+        "cityName": "咸阳",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "554E9E60-F148-420E-8246-C326CF7E2210",
+        "cityName": "西宁",
+        "zmCode": "X"
+      }
+    ],
+    "Y": [
+      {
+        "cityId": "0D475A53-402F-4AFB-8F81-F96A384FB869",
+        "cityName": "阳泉",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "648B865D-5C91-4D2F-9912-1FF6AC07DFE5",
+        "cityName": "运城",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "1A0BE6DE-6BDD-49E5-8B8B-1C0428AB5FF9",
+        "cityName": "营口",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "88E8A352-A0F8-4C11-ACAF-586FE3469B10",
+        "cityName": "延边",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "6FC5DCB2-2E11-4C33-84F5-E46EAA71352D",
+        "cityName": "伊春",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "CAA1A29D-462A-4807-9892-9D762A942B7F",
+        "cityName": "盐城",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "B3EA1836-551A-41D6-A0B5-2C2635802224",
+        "cityName": "扬州",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "E60DE73A-56DB-4F92-8FF9-98C31E126226",
+        "cityName": "鹰潭",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "98422019-FE11-4392-953A-E94499A8B51C",
+        "cityName": "宜春",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "06EA7100-549D-490F-B8E2-917DB1553DA7",
+        "cityName": "烟台",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "7A6AE12F-1281-483E-A865-1018E56800F3",
+        "cityName": "宜昌",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "55261349-AECD-4728-B7C3-0A3296CC4745",
+        "cityName": "岳阳",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "60CBC1AC-5F38-4A1A-A424-67179B58A51F",
+        "cityName": "益阳",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "569F1A83-12BC-44E1-A1E5-425EC4C84415",
+        "cityName": "永州",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "28C31F10-15CC-42CB-A480-AAB6D0460AA5",
+        "cityName": "阳江",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "BA1CF26D-CBA0-4C7F-A9FE-7708B955A4F8",
+        "cityName": "云浮",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "9ACA33D0-1471-4C74-8182-16BECBC0E852",
+        "cityName": "玉林",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "92D19A0F-1DC9-4F28-B3F6-004518C6B137",
+        "cityName": "宜宾",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "9598960E-787F-4DFC-9A20-1345176373E0",
+        "cityName": "雅安",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "6DC2E09F-497D-4567-ACF4-ADCE8C7FCAAA",
+        "cityName": "玉溪",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "7DE97C61-B5BA-4BA7-BDA1-99BE8DF7C0B1",
+        "cityName": "延安",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "98BD5007-FC0E-4841-97A1-333EF700CAA5",
+        "cityName": "榆林",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "B4A2ECD9-9FA3-477F-80A6-E186CD7A983D",
+        "cityName": "玉树藏",
+        "zmCode": "Y"
+      },
+      {
+        "cityId": "01D26B91-339D-4CFF-AE2F-2FF2DAF3F9DE",
+        "cityName": "银川",
+        "zmCode": "Y"
+      }
+    ],
+    "Z": [
+      {
+        "cityId": "34EC670C-155C-4880-8862-7683458A80B7",
+        "cityName": "张家口",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "26226828-B873-410F-9A67-F23D2EB1CC4A",
+        "cityName": "镇江",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "F8584BF1-63D2-4214-9F3B-89DB071591A1",
+        "cityName": "舟山",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "C42D2F93-1CF1-4C72-9F3D-FC365BE8C470",
+        "cityName": "漳州",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "F1A6C3A3-D603-4E7E-8EC6-ED092308CC99",
+        "cityName": "淄博",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "28B7B680-D292-4D34-9A96-332EBD0F5AD6",
+        "cityName": "枣庄",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "9C87896E-C4EA-4BEE-A399-137320A8941B",
+        "cityName": "郑州",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "A5EC8128-2BDE-4941-82EF-7ADEF241FABA",
+        "cityName": "周口",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "4EDBB4CF-570F-4E54-887B-363A345B9772",
+        "cityName": "驻马店",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "24EC0CB5-28BA-4973-BB8C-54E826D0A9EB",
+        "cityName": "株洲",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "231E4F90-BCD1-4EEA-9A12-3C05E5FF2C12",
+        "cityName": "张家界",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "94A60F8E-F623-47D7-8FAA-D757CDF11896",
+        "cityName": "珠海",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "D0944BA3-3FE8-4E91-BFCF-0A770B802133",
+        "cityName": "湛江",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "F283AA19-ECC2-4D8D-AE7A-6581B163DB72",
+        "cityName": "肇庆",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "86313771-B007-42B0-8ADC-A6071FBC02FC",
+        "cityName": "中山",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "F8A9117F-55E1-4FFF-B8BC-5CE68709EE24",
+        "cityName": "儋州",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "DD10608A-FDD1-4B96-BD21-24E94F0AC061",
+        "cityName": "自贡",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "228BC791-F498-413C-B2F5-AA3D0CF5A260",
+        "cityName": "资阳",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "7488C661-C04A-4B94-BD26-3BDBA828ADA5",
+        "cityName": "遵义",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "BD4D1EC9-34BD-43A2-A468-7226A72C963C",
+        "cityName": "昭通",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "CC0D99C1-934C-4E74-A5AC-FA4D5392DB75",
+        "cityName": "张掖",
+        "zmCode": "Z"
+      },
+      {
+        "cityId": "09ECE0E0-8DC0-4E02-B990-D7AC1F199D8C",
+        "cityName": "中卫",
+        "zmCode": "Z"
+      }
+    ],
+    "hot": [
+      {
+        "cityId": "CA9944FD-5A68-4607-9897-E10ACCBC6AE2",
+        "cityName": "北京",
+        "pinYin": "beijing",
+        "zmCode": "B"
+      },
+      {
+        "cityId": "15739B9B-AD4F-4EA0-B241-F83DB0E0D869",
+        "cityName": "上海",
+        "pinYin": "shanghai",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "B728E19B-1546-40BC-8F26-53DB2EB6F3BB",
+        "cityName": "广州",
+        "pinYin": "guangzhou",
+        "zmCode": "G"
+      },
+      {
+        "cityId": "3005BBE4-263B-4973-8210-6990CFA671E0",
+        "cityName": "深圳",
+        "pinYin": "shenzhen",
+        "zmCode": "S"
+      },
+      {
+        "cityId": "0E51CD18-425A-4D69-AE3F-38DDCD30FC69",
+        "cityName": "天津",
+        "pinYin": "tianjin",
+        "zmCode": "T"
+      },
+      {
+        "cityId": "6DA03BFF-A997-4E1D-B16E-E5050C6B4D2B",
+        "cityName": "武汉",
+        "pinYin": "wuhan",
+        "zmCode": "W"
+      },
+      {
+        "cityId": "C592AE7F-11AC-4C66-8246-78DBAAF81235",
+        "cityName": "西安",
+        "pinYin": "xian",
+        "zmCode": "X"
+      },
+      {
+        "cityId": "D2B68150-7CD4-449C-9FC6-4F62A9E7A4C0",
+        "cityName": "南京",
+        "pinYin": "nanjing",
+        "zmCode": "N"
+      },
+      {
+        "cityId": "80BF7A63-FF29-4176-ACFD-99B766CC6C39",
+        "cityName": "成都",
+        "pinYin": "chengdu",
+        "zmCode": "C"
+      },
+      {
+        "cityId": "33EC8851-453A-4C8B-AA48-B92FCBE4624B",
+        "cityName": "重庆",
+        "pinYin": "chongqing",
+        "zmCode": "C"
+      },
+      {
+        "cityId": "BA4ACDB9-2447-4D5B-AB19-488B1C9ED8BB",
+        "cityName": "杭州",
+        "pinYin": "hangzhou",
+        "zmCode": "H"
+      }
+    ]
+  }
+}

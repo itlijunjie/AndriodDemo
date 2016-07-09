@@ -16,7 +16,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.itlijunjie.andrioddemo1.R;
+import com.itlijunjie.andrioddemo1.ui.view.UseSqliteActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UserListActivity;
+import com.orhanobut.logger.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         final List<String> objects = new ArrayList<>();
         objects.add("ListView使用");
+        objects.add("sqlite使用");
         listView = (ListView) MainActivity.this.findViewById(R.id.MyListView);
         listView.setAdapter(new ListViewAdapter(objects));
 
@@ -38,12 +41,16 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (objects.get(position).equals("ListView使用")) {
+                String str = objects.get(position);
+                Logger.d(str);
+                if (str.equals("ListView使用")) {
                     Intent intent = new Intent();
                     intent.setClass(MainActivity.this, UserListActivity.class);
                     MainActivity.this.startActivity(intent);
-                } else if (objects.get(position).equals("ListView使用")) {
-
+                } else if (str.equals("sqlite使用")) {
+                    Intent intent = new Intent();
+                    intent.setClass(MainActivity.this,  UseSqliteActivity.class);
+                    MainActivity.this.startActivity(intent);
                 }
             }
         });
