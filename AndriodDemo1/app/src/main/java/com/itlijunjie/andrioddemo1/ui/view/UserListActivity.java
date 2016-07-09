@@ -27,7 +27,7 @@ import java.util.List;
 import cz.msebera.android.httpclient.Header;
 
 public class UserListActivity extends AppCompatActivity {
-    ListView listView;
+    private ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,7 +35,7 @@ public class UserListActivity extends AppCompatActivity {
         this.setTitle("BaseAdapter for ListView");
 
         AsyncHttpClient client = new AsyncHttpClient();
-        String url = "http://192.168.1.108:8080/pt/call/json/Demo1/list";
+        String url = "http://10.1.16.158:8080/pt/call/json/Demo1/list";
         client.get(url, new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers,

@@ -1,34 +1,64 @@
 package com.itlijunjie.andrioddemo1.ui;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.BaseAdapter;
+import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.itlijunjie.andrioddemo1.R;
 import com.itlijunjie.andrioddemo1.ui.view.UserListActivity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
+    private ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button btn = ((Button) findViewById(R.id.button));
-        if (btn != null) {
-            btn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
+
+        final List<String> objects = new ArrayList<>();
+        objects.add("ListView使用");
+        listView = (ListView) MainActivity.this.findViewById(R.id.MyListView);
+        listView.setAdapter(new ListViewAdapter(objects));
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if (objects.get(position).equals("ListView使用")) {
                     Intent intent = new Intent();
                     intent.setClass(MainActivity.this, UserListActivity.class);
                     MainActivity.this.startActivity(intent);
+                } else if (objects.get(position).equals("ListView使用")) {
+
                 }
-            });
-        }
+            }
+        });
+
+//        Button btn = ((Button) findViewById(R.id.button));
+//        if (btn != null) {
+//            btn.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    Intent intent = new Intent();
+//                    intent.setClass(MainActivity.this, UserListActivity.class);
+//                    MainActivity.this.startActivity(intent);
+//                }
+//            });
+//        }
 
 //        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 //        setSupportActionBar(toolbar);
@@ -65,4 +95,51 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public class ListViewAdapter extends BaseAdapter {
+        View[] itemViews;
+
+        public ListViewAdapter(List<String> objects) {
+            itemViews = new View[objects.size()];
+
+            for (int i = 0; i < itemViews.length; ++i) {
+                itemViews[i] = makeItemView(objects.get(i));
+            }
+        }
+
+        public int getCount() {
+            return itemViews.length;
+        }
+
+        public View getItem(int position) {
+            return itemViews[position];
+        }
+
+        public long getItemId(int position) {
+            return position;
+        }
+
+        private View makeItemView(String title) {
+            LayoutInflater inflater = (LayoutInflater) MainActivity.this
+                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+            // 使用View的对象itemView与R.layout.item关联
+            View itemView = inflater.inflate(R.layout.mainlist_item, null);
+
+            // 通过findViewById()方法实例R.layout.item内各组件
+            TextView titleView = (TextView) itemView.findViewById(R.id.itemTitle);
+            titleView.setText(title);
+
+            return itemView;
+        }
+
+        public View getView(int position, View convertView, ViewGroup parent) {
+            if (convertView == null)
+                return itemViews[position];
+            return convertView;
+        }
+
+
+    }
+
 }
