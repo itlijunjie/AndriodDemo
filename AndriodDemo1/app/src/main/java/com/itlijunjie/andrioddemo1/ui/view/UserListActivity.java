@@ -32,7 +32,7 @@ public class UserListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.user_list);
-        this.setTitle("BaseAdapter for ListView");
+        this.setTitle("List使用");
 
         AsyncHttpClient client = new AsyncHttpClient();
         String url = "http://10.1.16.158:8080/pt/call/json/Demo1/list";

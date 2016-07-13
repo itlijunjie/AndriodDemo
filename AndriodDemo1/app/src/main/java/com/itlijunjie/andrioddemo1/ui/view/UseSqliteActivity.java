@@ -21,6 +21,7 @@ public class UseSqliteActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.use_sqlite);
+        this.setTitle("SQLite使用");
 
         //打开或创建test.db数据库
         db = openOrCreateDatabase("test.db", Context.MODE_PRIVATE, null);
