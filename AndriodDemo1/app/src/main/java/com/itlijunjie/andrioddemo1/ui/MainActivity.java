@@ -1,10 +1,8 @@
 package com.itlijunjie.andrioddemo1.ui;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -36,7 +34,36 @@ public class MainActivity extends AppCompatActivity {
         objects.add("ListView使用");
         objects.add("sqlite使用");
         objects.add("ImageView使用");
-
+        objects.add("Button使用");
+        objects.add("TextView使用");
+        objects.add("GridView使用");
+        objects.add("Activity生命周期");
+        objects.add("Service生命周期");
+        objects.add("BroadcastReceiver使用");
+        objects.add("ContentProvider使用");
+        objects.add("ActionBar使用");
+        objects.add("Fragment使用");
+        objects.add("Frame布局");
+        objects.add("Linear布局");
+        objects.add("Table布局");
+        objects.add("Grid布局");
+        objects.add("Relative布局");
+        objects.add("Drawer布局");
+        objects.add("SlidingPane布局");
+        objects.add("Custom_include");
+        objects.add("Custom_fragment");
+        objects.add("Custom_requestFocus");
+        objects.add("帧动画");
+        objects.add("补间动画");
+        objects.add("属性动画");
+        objects.add("适配");
+        objects.add("NDK_JNI");
+        objects.add("手机功能");
+        objects.add("感应器");
+        objects.add("第三方分享");
+        objects.add("国际化");
+        objects.add("AIDL");
+        objects.add("PopuWindow");
         listView = (ListView) MainActivity.this.findViewById(R.id.MyListView);
         listView.setAdapter(new ListViewAdapter(objects));
 
@@ -52,11 +79,11 @@ public class MainActivity extends AppCompatActivity {
                     MainActivity.this.startActivity(intent);
                 } else if (str.equals("sqlite使用")) {
                     Intent intent = new Intent();
-                    intent.setClass(MainActivity.this,  UseSqliteActivity.class);
+                    intent.setClass(MainActivity.this, UseSqliteActivity.class);
                     MainActivity.this.startActivity(intent);
                 } else if (str.equals("ImageView使用")) {
                     Intent intent = new Intent();
-                    intent.setClass(MainActivity.this,  UseImageViewActivity.class);
+                    intent.setClass(MainActivity.this, UseImageViewActivity.class);
                     MainActivity.this.startActivity(intent);
                 }
             }
@@ -111,48 +138,51 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public class ListViewAdapter extends BaseAdapter {
-        View[] itemViews;
+
+        private List<String> mList;
 
         public ListViewAdapter(List<String> objects) {
-            itemViews = new View[objects.size()];
-
-            for (int i = 0; i < itemViews.length; ++i) {
-                itemViews[i] = makeItemView(objects.get(i));
-            }
+            this.mList = objects;
         }
 
+        @Override
         public int getCount() {
-            return itemViews.length;
+            return mList.size();
         }
 
-        public View getItem(int position) {
-            return itemViews[position];
+        @Override
+        public Object getItem(int position) {
+            return mList.get(position);
         }
 
+        @Override
         public long getItemId(int position) {
             return position;
         }
 
-        private View makeItemView(String title) {
-            LayoutInflater inflater = (LayoutInflater) MainActivity.this
-                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-
-            // 使用View的对象itemView与R.layout.item关联
-            View itemView = inflater.inflate(R.layout.mainlist_item, null);
-
-            // 通过findViewById()方法实例R.layout.item内各组件
-            TextView titleView = (TextView) itemView.findViewById(R.id.itemTitle);
-            titleView.setText(title);
-
-            return itemView;
-        }
-
+        @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            if (convertView == null)
-                return itemViews[position];
+            Holder holder = null;
+            if (convertView == null) {
+                holder = new Holder();
+
+                // 使用View的对象itemView与R.layout.item关联
+                convertView = MainActivity.this.getLayoutInflater().inflate(R.layout.mainlist_item, null);
+
+                // 通过findViewById()方法实例R.layout.item内各组件
+                holder.item = (TextView) convertView.findViewById(R.id.itemTitle);
+                convertView.setTag(holder);
+            } else {
+                holder = (Holder) convertView.getTag();
+            }
+
+            holder.item.setText(mList.get(position));
             return convertView;
         }
 
+        class Holder {
+            TextView item;
+        }
 
     }
 
