@@ -26,12 +26,12 @@ import java.util.List;
 
 import cz.msebera.android.httpclient.Header;
 
-public class UserListActivity extends AppCompatActivity {
+public class UseListActivity extends AppCompatActivity {
     private ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.user_list);
+        setContentView(R.layout.use_list);
         this.setTitle("List使用");
 
         AsyncHttpClient client = new AsyncHttpClient();
@@ -52,7 +52,7 @@ public class UserListActivity extends AppCompatActivity {
                             header.setImage(obj.getString("image"));
                             header.setText(obj.getString("text"));
                             objects.add(header);
-                            listView=(ListView)UserListActivity.this.findViewById(R.id.MyListView);
+                            listView=(ListView)UseListActivity.this.findViewById(R.id.MyListView);
                             listView.setAdapter(new ListViewAdapter(objects));
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -64,13 +64,13 @@ public class UserListActivity extends AppCompatActivity {
             @Override
             public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
                 super.onFailure(statusCode, headers, responseString, throwable);
-                Toast.makeText(UserListActivity.this, "失败", Toast.LENGTH_SHORT).show();
+                Toast.makeText(UseListActivity.this, "失败", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
                 super.onFailure(statusCode, headers, throwable, errorResponse);
-                Toast.makeText(UserListActivity.this, "失败", Toast.LENGTH_SHORT).show();
+                Toast.makeText(UseListActivity.this, "失败", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -100,7 +100,7 @@ public class UserListActivity extends AppCompatActivity {
         }
 
         private View makeItemView(UserHeader header) {
-            LayoutInflater inflater = (LayoutInflater)UserListActivity.this
+            LayoutInflater inflater = (LayoutInflater)UseListActivity.this
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
             // 使用View的对象itemView与R.layout.item关联

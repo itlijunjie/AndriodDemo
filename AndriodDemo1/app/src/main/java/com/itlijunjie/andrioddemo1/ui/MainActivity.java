@@ -14,9 +14,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.itlijunjie.andrioddemo1.R;
+import com.itlijunjie.andrioddemo1.ui.view.UseButtonActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseImageViewActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseSqliteActivity;
-import com.itlijunjie.andrioddemo1.ui.view.UserListActivity;
+import com.itlijunjie.andrioddemo1.ui.view.UseListActivity;
 import com.orhanobut.logger.Logger;
 
 import java.util.ArrayList;
@@ -73,17 +74,19 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String str = objects.get(position);
                 Logger.d(str);
+                Intent intent = new Intent();
+                Class<?> cls = null;
                 if (str.equals("ListView使用")) {
-                    Intent intent = new Intent();
-                    intent.setClass(MainActivity.this, UserListActivity.class);
-                    MainActivity.this.startActivity(intent);
+                    cls = UseListActivity.class;
                 } else if (str.equals("sqlite使用")) {
-                    Intent intent = new Intent();
-                    intent.setClass(MainActivity.this, UseSqliteActivity.class);
-                    MainActivity.this.startActivity(intent);
+                    cls = UseSqliteActivity.class;
                 } else if (str.equals("ImageView使用")) {
-                    Intent intent = new Intent();
-                    intent.setClass(MainActivity.this, UseImageViewActivity.class);
+                    cls = UseImageViewActivity.class;
+                } else if (str.equals("Button使用")) {
+                    cls = UseButtonActivity.class;
+                }
+                if (cls != null) {
+                    intent.setClass(MainActivity.this, cls);
                     MainActivity.this.startActivity(intent);
                 }
             }
@@ -95,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
 //                @Override
 //                public void onClick(View v) {
 //                    Intent intent = new Intent();
-//                    intent.setClass(MainActivity.this, UserListActivity.class);
+//                    intent.setClass(MainActivity.this, UseListActivity.class);
 //                    MainActivity.this.startActivity(intent);
 //                }
 //            });
