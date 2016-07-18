@@ -20,6 +20,7 @@ import com.itlijunjie.andrioddemo1.ui.view.UseGridActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseImageViewActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseSqliteActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseListActivity;
+import com.itlijunjie.andrioddemo1.ui.view.UseTextActivity;
 import com.orhanobut.logger.Logger;
 
 import java.util.ArrayList;
@@ -86,6 +87,8 @@ public class MainActivity extends AppCompatActivity {
                     cls = UseImageViewActivity.class;
                 } else if (str.equals("Button使用")) {
                     cls = UseButtonActivity.class;
+                } else if (str.equals("TextView使用")) {
+                    cls = UseTextActivity.class;
                 } else if (str.equals("GridView使用")) {
                     cls = UseGridActivity.class;
                 } else if (str.equals("Activity生命周期")) {
