@@ -27,7 +27,9 @@
         <activity android:name=".ui.view.UseListActivity" />
         <activity android:name=".ui.view.UseSqliteActivity" />
         <activity android:name=".ui.view.UseImageViewActivity" />
-        <activity android:name=".ui.view.UseButtonActivity"></activity>
+        <activity android:name=".ui.view.UseButtonActivity" />
+        <activity android:name=".ui.view.UseGridActivity" />
+        <activity android:name=".ui.view.LifeCycleActivity"></activity>
     </application>
 
 </manifest>

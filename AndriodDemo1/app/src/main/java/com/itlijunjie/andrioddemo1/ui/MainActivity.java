@@ -14,7 +14,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.itlijunjie.andrioddemo1.R;
+import com.itlijunjie.andrioddemo1.ui.view.LifeCycleActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseButtonActivity;
+import com.itlijunjie.andrioddemo1.ui.view.UseGridActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseImageViewActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseSqliteActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseListActivity;
@@ -84,7 +86,64 @@ public class MainActivity extends AppCompatActivity {
                     cls = UseImageViewActivity.class;
                 } else if (str.equals("Button使用")) {
                     cls = UseButtonActivity.class;
+                } else if (str.equals("GridView使用")) {
+                    cls = UseGridActivity.class;
+                } else if (str.equals("Activity生命周期")) {
+                    cls = LifeCycleActivity.class;
+                } else if (str.equals("Service生命周期")) {
+                    cls = null;
+                } else if (str.equals("BroadcastReceiver使用")) {
+                    cls = null;
+                } else if (str.equals("ContentProvider使用")) {
+                    cls = null;
+                } else if (str.equals("ActionBar使用")) {
+                    cls = null;
+                } else if (str.equals("Fragment使用")) {
+                    cls = null;
+                } else if (str.equals("Frame布局")) {
+                    cls = null;
+                } else if (str.equals("Linear布局")) {
+                    cls = null;
+                } else if (str.equals("Table布局")) {
+                    cls = null;
+                } else if (str.equals("Grid布局")) {
+                    cls = null;
+                } else if (str.equals("Relative布局")) {
+                    cls = null;
+                } else if (str.equals("Drawer布局")) {
+                    cls = null;
+                } else if (str.equals("SlidingPane布局")) {
+                    cls = null;
+                } else if (str.equals("Custom_include")) {
+                    cls = null;
+                } else if (str.equals("Custom_fragment")) {
+                    cls = null;
+                } else if (str.equals("Custom_requestFocus")) {
+                    cls = null;
+                } else if (str.equals("帧动画")) {
+                    cls = null;
+                } else if (str.equals("补间动画")) {
+                    cls = null;
+                } else if (str.equals("属性动画")) {
+                    cls = null;
+                } else if (str.equals("适配")) {
+                    cls = null;
+                } else if (str.equals("NDK_JNI")) {
+                    cls = null;
+                } else if (str.equals("手机功能")) {
+                    cls = null;
+                } else if (str.equals("感应器")) {
+                    cls = null;
+                } else if (str.equals("第三方分享")) {
+                    cls = null;
+                } else if (str.equals("国际化")) {
+                    cls = null;
+                } else if (str.equals("AIDL")) {
+                    cls = null;
+                } else if (str.equals("PopuWindow")) {
+                    cls = null;
                 }
+
                 if (cls != null) {
                     intent.setClass(MainActivity.this, cls);
                     MainActivity.this.startActivity(intent);
