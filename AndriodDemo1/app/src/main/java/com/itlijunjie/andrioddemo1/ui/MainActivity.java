@@ -18,6 +18,7 @@ import com.itlijunjie.andrioddemo1.ui.view.LifeCycleActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseButtonActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseGridActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseImageViewActivity;
+import com.itlijunjie.andrioddemo1.ui.view.UseServiceActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseSqliteActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseListActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseTextActivity;
@@ -94,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (str.equals("Activity生命周期")) {
                     cls = LifeCycleActivity.class;
                 } else if (str.equals("Service生命周期")) {
-                    cls = null;
+                    cls = UseServiceActivity.class;
                 } else if (str.equals("BroadcastReceiver使用")) {
                     cls = null;
                 } else if (str.equals("ContentProvider使用")) {

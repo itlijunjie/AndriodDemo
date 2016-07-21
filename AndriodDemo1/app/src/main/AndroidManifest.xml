@@ -30,7 +30,14 @@
         <activity android:name=".ui.view.UseButtonActivity" />
         <activity android:name=".ui.view.UseGridActivity" />
         <activity android:name=".ui.view.LifeCycleActivity" />
-        <activity android:name=".ui.view.UseTextActivity"></activity>
+        <activity android:name=".ui.view.UseTextActivity" />
+
+        <service
+            android:name=".ui.service.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".ui.view.UseServiceActivity"></activity>
     </application>
 
 </manifest>

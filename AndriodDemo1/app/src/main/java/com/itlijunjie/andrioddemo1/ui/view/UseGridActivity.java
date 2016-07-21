@@ -29,13 +29,15 @@ public class UseGridActivity extends AppCompatActivity {
         setTitle("GridView使用");
 
         GridView gridView = (GridView) findViewById(R.id.gridView);
-        gridView.setAdapter(new MyAdapter());
-        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Logger.d("点击第" + position + "个元素！");
-            }
-        });
+        if (gridView != null) {
+            gridView.setAdapter(new MyAdapter());
+            gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    Logger.d("点击第" + position + "个元素！");
+                }
+            });
+        }
     }
 
     class MyAdapter extends BaseAdapter {
