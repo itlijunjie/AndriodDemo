@@ -47,29 +47,34 @@
         <receiver android:name=".ui.receiver.MyReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.MY_BROADCAST" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </receiver>
         <receiver android:name=".ui.receiver.FirstReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.MY_BROADCAST" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </receiver>
         <receiver android:name=".ui.receiver.SecondReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.MY_BROADCAST" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </receiver>
         <receiver android:name=".ui.receiver.ThirdReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.MY_BROADCAST" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </receiver>
 
-        <activity android:name=".ui.view.UseBroadcastReceiverActivity"></activity>
+        <activity android:name=".ui.view.UseBroadcastReceiverActivity" />
+        <activity android:name=".ui.view.UseContentProvider"></activity>
     </application>
 
 </manifest>
