@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 import com.itlijunjie.andrioddemo1.R;
 import com.itlijunjie.andrioddemo1.ui.view.LifeCycleActivity;
+import com.itlijunjie.andrioddemo1.ui.view.UseBroadcastReceiverActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseButtonActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseGridActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseImageViewActivity;
@@ -97,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (str.equals("Service生命周期")) {
                     cls = UseServiceActivity.class;
                 } else if (str.equals("BroadcastReceiver使用")) {
-                    cls = null;
+                    cls = UseBroadcastReceiverActivity.class;
                 } else if (str.equals("ContentProvider使用")) {
                     cls = null;
                 } else if (str.equals("ActionBar使用")) {

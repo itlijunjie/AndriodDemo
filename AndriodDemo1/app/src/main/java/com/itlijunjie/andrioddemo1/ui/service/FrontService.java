@@ -1,39 +1,34 @@
 package com.itlijunjie.andrioddemo1.ui.service;
 
-import android.annotation.TargetApi;
 import android.app.Notification;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Intent;
 import android.os.Binder;
-import android.os.Build;
 import android.os.IBinder;
 
 import com.itlijunjie.andrioddemo1.R;
 import com.itlijunjie.andrioddemo1.ui.MainActivity;
 import com.orhanobut.logger.Logger;
 
-public class MyService extends Service {
+public class FrontService extends Service {
 
-    public static final String TAG = "MyService";
+    public static final String TAG = "FrontService";
 
     private MyBinder mBinder = new MyBinder();
 
-    public MyService() {
+    public FrontService() {
     }
 
-    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     @Override
     public void onCreate() {
         super.onCreate();
         Notification notification = new Notification(R.drawable.checkbox_checked,
                 "有通知到来", System.currentTimeMillis());
-        Notification.Builder builder = new Notification.Builder(this).setTicker("显示于屏幕顶端状态栏的文本")
-                .setSmallIcon(R.drawable.checkbox_checked);
         Intent notificationIntent = new Intent(this, MainActivity.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0,
                 notificationIntent, 0);
-        notification = (Notification) builder.setContentIntent(pendingIntent).setContentTitle("title").setContentText("text").build();
+//        notification.setLatestEventInfo(this, "这是通知的标题", "这是通知的内容", pendingIntent);
         startForeground(1, notification);
         Logger.d(TAG, "onCreate() executed");
     }
