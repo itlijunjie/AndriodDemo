@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 import com.itlijunjie.andrioddemo1.R;
 import com.itlijunjie.andrioddemo1.ui.view.LifeCycleActivity;
+import com.itlijunjie.andrioddemo1.ui.view.UseActionBarActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseBroadcastReceiverActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseButtonActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseContentProvider;
@@ -103,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (str.equals("ContentProvider使用")) {
                     cls = UseContentProvider.class;
                 } else if (str.equals("ActionBar使用")) {
-                    cls = null;
+                    cls = UseActionBarActivity.class;
                 } else if (str.equals("Fragment使用")) {
                     cls = null;
                 } else if (str.equals("Frame布局")) {

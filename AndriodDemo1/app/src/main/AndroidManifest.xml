@@ -31,6 +31,7 @@
         <activity android:name=".ui.view.UseGridActivity" />
         <activity android:name=".ui.view.LifeCycleActivity" />
         <activity android:name=".ui.view.UseTextActivity" />
+        <activity android:name=".ui.actionbar.CustomActionBarActivity1" />
 
         <service
             android:name=".ui.service.MyService"
@@ -74,7 +75,8 @@
         </receiver>
 
         <activity android:name=".ui.view.UseBroadcastReceiverActivity" />
-        <activity android:name=".ui.view.UseContentProvider"></activity>
+        <activity android:name=".ui.view.UseContentProvider" />
+        <activity android:name=".ui.view.UseActionBarActivity"></activity>
     </application>
 
 </manifest>
