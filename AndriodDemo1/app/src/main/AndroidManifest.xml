@@ -31,7 +31,10 @@
         <activity android:name=".ui.view.UseGridActivity" />
         <activity android:name=".ui.view.LifeCycleActivity" />
         <activity android:name=".ui.view.UseTextActivity" />
-        <activity android:name=".ui.actionbar.CustomActionBarActivity1" />
+        <activity
+            android:name=".ui.actionbar.CustomActionBarActivity1"
+            android:label="ActionBar实现下拉导航"
+            android:parentActivityName=".ui.view.UseActionBarActivity" />
 
         <service
             android:name=".ui.service.MyService"
@@ -76,7 +79,7 @@
 
         <activity android:name=".ui.view.UseBroadcastReceiverActivity" />
         <activity android:name=".ui.view.UseContentProvider" />
-        <activity android:name=".ui.view.UseActionBarActivity"></activity>
+        <activity android:name=".ui.view.UseActionBarActivity" />
     </application>
 
 </manifest>

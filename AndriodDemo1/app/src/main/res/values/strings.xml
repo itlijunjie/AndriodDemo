@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">牛逼立体</string>
     <string name="action_settings">Settings</string>
+    <array name="menus">
+        <item>邓名侨</item>
+        <item>刘天喜</item>
+        <item>其黄石</item>
+        <item>蔡宏远</item>
+    </array>
 </resources>

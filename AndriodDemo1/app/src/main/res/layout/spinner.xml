@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvMenu"
+    android:textColor="#fff"
+    android:background="#696969"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+    android:gravity="center_vertical"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    />
