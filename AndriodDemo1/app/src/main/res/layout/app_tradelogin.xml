@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- android:layout_below与 android:layout_above 是必须设置的，否则界面不规则，不设置android:layout_above本界面没有滑动效果-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_above="@+id/appbottom"
+    android:layout_below="@+id/titleLayout"
+    android:layout_centerInParent="true">
+
+    <LinearLayout
+        android:id="@+id/theWholeLinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10px"
+        android:paddingRight="10px"
+        android:paddingTop="6px">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutLeft"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/widget43"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:stretchColumns="1">
+
+                <TableRow>
+                    <!--  引用定义好的TextView样式,如果这里的属性和样式里定义的属性重复，则这里会替换样式里定义的属性-->
+                    <TextView
+                        android:id="@+id/traderName"
+                        android:text="@string/traderName" />
+
+                    <Spinner
+                        android:id="@+id/traderNameS"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"></Spinner>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/departName"
+                        android:text="@string/departName" />
+
+                    <Spinner
+                        android:id="@+id/departNameS"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/strComponyName"
+                        android:text="@string/accType" />
+
+                    <Spinner
+                        android:id="@+id/accTyte"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/strUserAcc"
+                        android:text="@string/userAcc" />
+
+                    <EditText
+                        android:id="@+id/accEditText"
+                        android:numeric="decimal"
+                        android:text="" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/userPwd"
+                        android:text="@string/userPWD" />
+
+                    <EditText
+                        android:id="@+id/userPwdET"
+                        android:password="true"
+                        android:text="" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/commPwd"
+                        android:text="@string/commPWD" />
+
+                    <EditText
+                        android:id="@+id/commPwdET"
+                        android:password="true"
+                        android:text="" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutTab11"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutTab22"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/recordAcc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/commPwd11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/saveUserAcc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutTab2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/hideAcc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/commPwd1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ycUserAcc" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutTab1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="220px"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/confirmexch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50px"
+                        android:layout_weight="1"
+                        android:background="@drawable/checkbox_checked"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:text="@string/login"
+                        android:textColor="@color/white"
+                        android:textSize="22dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutTab"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/myImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50px" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

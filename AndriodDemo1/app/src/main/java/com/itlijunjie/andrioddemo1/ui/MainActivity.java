@@ -19,6 +19,8 @@ import com.itlijunjie.andrioddemo1.ui.view.UseActionBarActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseBroadcastReceiverActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseButtonActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseContentProvider;
+import com.itlijunjie.andrioddemo1.ui.view.UseCustomIncludeActivity;
+import com.itlijunjie.andrioddemo1.ui.view.UseFragmentActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseGridActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseImageViewActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseServiceActivity;
@@ -106,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (str.equals("ActionBar使用")) {
                     cls = UseActionBarActivity.class;
                 } else if (str.equals("Fragment使用")) {
-                    cls = null;
+                    cls = UseFragmentActivity.class;
                 } else if (str.equals("Frame布局")) {
                     cls = null;
                 } else if (str.equals("Linear布局")) {
@@ -122,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (str.equals("SlidingPane布局")) {
                     cls = null;
                 } else if (str.equals("Custom_include")) {
-                    cls = null;
+                    cls = UseCustomIncludeActivity.class;
                 } else if (str.equals("Custom_fragment")) {
                     cls = null;
                 } else if (str.equals("Custom_requestFocus")) {

@@ -16,6 +16,7 @@ public class UseActionBarActivity extends AppCompatActivity implements View.OnCl
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.use_action_bar);
+        setTitle("ActionBar使用");
         Button actionbar1 = (Button) findViewById(R.id.action_bar1);
         actionbar1.setOnClickListener(this);
     }
@@ -26,17 +27,15 @@ public class UseActionBarActivity extends AppCompatActivity implements View.OnCl
         Class<?> cls = null;
 
         switch (v.getId()) {
-            case R.id.action_bar1:{
+            case R.id.action_bar1: {
                 Logger.d("action_bar1");
                 cls = CustomActionBarActivity1.class;
                 break;
             }
-            default:{
+            default: {
 
             }
         }
-
-
 
         if (cls != null) {
             intent.setClass(UseActionBarActivity.this, cls);

@@ -80,6 +80,9 @@
         <activity android:name=".ui.view.UseBroadcastReceiverActivity" />
         <activity android:name=".ui.view.UseContentProvider" />
         <activity android:name=".ui.view.UseActionBarActivity" />
+        <activity android:name=".ui.view.UseFragmentActivity" />
+        <activity android:name=".ui.fragment.UseFragmentActivity1" />
+        <activity android:name=".ui.view.UseCustomIncludeActivity"></activity>
     </application>
 
 </manifest>

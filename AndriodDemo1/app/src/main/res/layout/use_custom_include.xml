@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <!-- include标签内不能设置RelativeLayout属性，如android:layout_alignParentBottom,因为不起作用 -->
+    <!-- include标签内设置id属性后(android:id)，其引用的布局layout内的id属性就不起作用了，怀疑是其引用的layout外层包裹了一层include标签
+        或者是覆盖了其内的属性id-->
+    <!-- 如果没有include标签，所有布局代码都写在一个xml文件中，界面会显得很冗余，可读性很差。而且界面加载的时候是按照顺序加载的，前面的布局不能
+        调用其后面的布局id。而采用include后，一个include中可以引用其后的include中的布局id属性 -->
+    <include
+        android:id="@id/titleLayout"
+        layout="@layout/app_title" />
+
+    <include layout="@layout/app_tradelogin" />
+
+    <include layout="@layout/app_bottom" />
+
+</RelativeLayout>
