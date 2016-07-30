@@ -29,6 +29,7 @@ import com.itlijunjie.andrioddemo1.ui.view.UseServiceActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseSqliteActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseListActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseTextActivity;
+import com.itlijunjie.andrioddemo1.ui.view.UseTweenAnimationActivity;
 import com.orhanobut.logger.Logger;
 
 import java.util.ArrayList;
@@ -134,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (str.equals("帧动画")) {
                     cls = UseFrameAnimationsActivity.class;
                 } else if (str.equals("补间动画")) {
-                    cls = null;
+                    cls = UseTweenAnimationActivity.class;
                 } else if (str.equals("属性动画")) {
                     cls = null;
                 } else if (str.equals("适配")) {
