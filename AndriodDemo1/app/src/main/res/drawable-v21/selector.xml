@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/on"
+        android:state_activated="true">
+        <bitmap
+        android:src="@drawable/ic_heart_100"/>
+    </item>
+    
+    <item
+        android:id="@+id/off">
+        <bitmap
+        android:src="@drawable/ic_heart_0"/>
+    </item>
+    
+    <transition
+        android:fromId="@+id/on"
+        android:toId="@+id/off"
+        android:drawable="@drawable/animation_list_emptying">
+    </transition>
+    
+    <transition
+        android:fromId="@id/off"
+        android:toId="@id/on"
+        android:drawable="@drawable/animation_list_filling">
+    </transition>
+    
+</animated-selector>

@@ -21,8 +21,10 @@ import com.itlijunjie.andrioddemo1.ui.view.UseButtonActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseContentProvider;
 import com.itlijunjie.andrioddemo1.ui.view.UseCustomIncludeActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseFragmentActivity;
+import com.itlijunjie.andrioddemo1.ui.view.UseFrameAnimationsActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseGridActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseImageViewActivity;
+import com.itlijunjie.andrioddemo1.ui.view.UseRequestFocusActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseServiceActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseSqliteActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseListActivity;
@@ -128,9 +130,9 @@ public class MainActivity extends AppCompatActivity {
                 } else if (str.equals("Custom_fragment")) {
                     cls = null;
                 } else if (str.equals("Custom_requestFocus")) {
-                    cls = null;
+                    cls = UseRequestFocusActivity.class;
                 } else if (str.equals("帧动画")) {
-                    cls = null;
+                    cls = UseFrameAnimationsActivity.class;
                 } else if (str.equals("补间动画")) {
                     cls = null;
                 } else if (str.equals("属性动画")) {

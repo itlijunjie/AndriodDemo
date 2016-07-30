@@ -82,7 +82,9 @@
         <activity android:name=".ui.view.UseActionBarActivity" />
         <activity android:name=".ui.view.UseFragmentActivity" />
         <activity android:name=".ui.fragment.UseFragmentActivity1" />
-        <activity android:name=".ui.view.UseCustomIncludeActivity"></activity>
+        <activity android:name=".ui.view.UseCustomIncludeActivity" />
+        <activity android:name=".ui.view.UseRequestFocusActivity"></activity>
+        <activity android:name=".ui.view.UseFrameAnimationsActivity"></activity>
     </application>
 
 </manifest>
