@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.itlijunjie.andrioddemo1.R;
+import com.itlijunjie.andrioddemo1.ndk.NDKTest;
 import com.itlijunjie.andrioddemo1.ui.view.LifeCycleActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseActionBarActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseBroadcastReceiverActivity;
@@ -24,6 +25,7 @@ import com.itlijunjie.andrioddemo1.ui.view.UseFragmentActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseFrameAnimationsActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseGridActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseImageViewActivity;
+import com.itlijunjie.andrioddemo1.ui.view.UseMutablesLanguageActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseRequestFocusActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseServiceActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseSqliteActivity;
@@ -44,31 +46,31 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final List<String> objects = new ArrayList<>();
-        objects.add("ListView使用");
-        objects.add("sqlite使用");
-        objects.add("ImageView使用");
-        objects.add("Button使用");
-        objects.add("TextView使用");
-        objects.add("GridView使用");
-        objects.add("Activity生命周期");
-        objects.add("Service生命周期");
-        objects.add("BroadcastReceiver使用");
-        objects.add("ContentProvider使用");
-        objects.add("ActionBar使用");
-        objects.add("Fragment使用");
-        objects.add("Frame布局");
-        objects.add("Linear布局");
-        objects.add("Table布局");
-        objects.add("Grid布局");
-        objects.add("Relative布局");
-        objects.add("Drawer布局");
-        objects.add("SlidingPane布局");
-        objects.add("Custom_include");
-        objects.add("Custom_fragment");
-        objects.add("Custom_requestFocus");
-        objects.add("帧动画");
-        objects.add("补间动画");
-        objects.add("属性动画");
+//        objects.add("ListView使用");
+//        objects.add("sqlite使用");
+//        objects.add("ImageView使用");
+//        objects.add("Button使用");
+//        objects.add("TextView使用");
+//        objects.add("GridView使用");
+//        objects.add("Activity生命周期");
+//        objects.add("Service生命周期");
+//        objects.add("BroadcastReceiver使用");
+//        objects.add("ContentProvider使用");
+//        objects.add("ActionBar使用");
+//        objects.add("Fragment使用");
+//        objects.add("Frame布局");
+//        objects.add("Linear布局");
+//        objects.add("Table布局");
+//        objects.add("Grid布局");
+//        objects.add("Relative布局");
+//        objects.add("Drawer布局");
+//        objects.add("SlidingPane布局");
+//        objects.add("Custom_include");
+//        objects.add("Custom_fragment");
+//        objects.add("Custom_requestFocus");
+//        objects.add("帧动画");
+//        objects.add("补间动画");
+//        objects.add("属性动画");
         objects.add("适配");
         objects.add("NDK_JNI");
         objects.add("手机功能");
@@ -77,6 +79,9 @@ public class MainActivity extends AppCompatActivity {
         objects.add("国际化");
         objects.add("AIDL");
         objects.add("PopuWindow");
+
+        NDKTest ndk = new NDKTest();
+        objects.add(ndk.getString());
         listView = (ListView) MainActivity.this.findViewById(R.id.MyListView);
         listView.setAdapter(new ListViewAdapter(objects));
 
@@ -141,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (str.equals("适配")) {
                     cls = null;
                 } else if (str.equals("NDK_JNI")) {
-                    cls = null;
+                    cls = null;//http://my.oschina.net/zhouzhenBlog/blog/648125
                 } else if (str.equals("手机功能")) {
                     cls = null;
                 } else if (str.equals("感应器")) {
@@ -149,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (str.equals("第三方分享")) {
                     cls = null;
                 } else if (str.equals("国际化")) {
-                    cls = null;
+                    cls = UseMutablesLanguageActivity.class;
                 } else if (str.equals("AIDL")) {
                     cls = null;
                 } else if (str.equals("PopuWindow")) {
