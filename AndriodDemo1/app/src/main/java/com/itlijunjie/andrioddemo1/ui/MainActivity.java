@@ -14,7 +14,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.itlijunjie.andrioddemo1.R;
-import com.itlijunjie.andrioddemo1.ndk.NDKTest;
 import com.itlijunjie.andrioddemo1.ui.view.LifeCycleActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseActionBarActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseBroadcastReceiverActivity;
@@ -25,11 +24,12 @@ import com.itlijunjie.andrioddemo1.ui.view.UseFragmentActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseFrameAnimationsActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseGridActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseImageViewActivity;
+import com.itlijunjie.andrioddemo1.ui.view.UseListActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseMutablesLanguageActivity;
+import com.itlijunjie.andrioddemo1.ui.view.UseNDKActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseRequestFocusActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseServiceActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseSqliteActivity;
-import com.itlijunjie.andrioddemo1.ui.view.UseListActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseTextActivity;
 import com.itlijunjie.andrioddemo1.ui.view.UseTweenAnimationActivity;
 import com.orhanobut.logger.Logger;
@@ -80,8 +80,6 @@ public class MainActivity extends AppCompatActivity {
         objects.add("AIDL");
         objects.add("PopuWindow");
 
-        NDKTest ndk = new NDKTest();
-        objects.add(ndk.getString());
         listView = (ListView) MainActivity.this.findViewById(R.id.MyListView);
         listView.setAdapter(new ListViewAdapter(objects));
 
@@ -146,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (str.equals("适配")) {
                     cls = null;
                 } else if (str.equals("NDK_JNI")) {
-                    cls = null;//http://my.oschina.net/zhouzhenBlog/blog/648125
+                    cls = UseNDKActivity.class;
                 } else if (str.equals("手机功能")) {
                     cls = null;
                 } else if (str.equals("感应器")) {

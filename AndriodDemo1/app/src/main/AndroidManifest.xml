@@ -86,7 +86,8 @@
         <activity android:name=".ui.view.UseRequestFocusActivity" />
         <activity android:name=".ui.view.UseFrameAnimationsActivity" />
         <activity android:name=".ui.view.UseTweenAnimationActivity" />
-        <activity android:name=".ui.view.UseMutablesLanguageActivity"></activity>
+        <activity android:name=".ui.view.UseMutablesLanguageActivity" />
+        <activity android:name=".ui.view.UseNDKActivity"></activity>
     </application>
 
 </manifest>
